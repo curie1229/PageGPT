@@ -1,0 +1,56 @@
+/* Additional styles to differentiate between user and bot messages */
+#chat-container h2 {
+  color: #333; /* Dark text color for contrast */
+  text-align: center; /* Center the title */
+  padding: 10px; /* Add some padding around the title */
+  margin: 0 0 10px 0; /* Add some space below the title */
+  background-color: #f7f7f7; /* Light background color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  font-size: 14px; /* Smaller font size */
+  line-height: 1.2; /* Adjust line height to ensure it fits in one line */
+  margin-top: 5px; /* Reduce space above the title if necessary */
+}
+
+/* Style for the message container */
+.message-container {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  background-color: #dcf8c6;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 80%;
+  margin-left: auto; /* Align to right */
+  margin-bottom: 8px;
+}
+
+.bot-message {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 80%;
+  margin-right: auto; /* Align to left */
+  margin-bottom: 8px;
+}
+
+/* Add spacing and formatting for the messages */
+#chat-messages li {
+  clear: both;
+  padding: 5px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+/* Modify the chat box to accommodate the new styles */
+#chat-box {
+  width: 300px;
+  height: 400px;
+  border-bottom: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #e5ddd5; /* Similar to popular chat applications */
+}

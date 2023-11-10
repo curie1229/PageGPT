@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00740B922AFBF112005FB15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B912AFBF112005FB15A /* AppDelegate.swift */; };
+		00740B942AFBF112005FB15A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B932AFBF112005FB15A /* SceneDelegate.swift */; };
+		00740B972AFBF112005FB15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00740B952AFBF112005FB15A /* LaunchScreen.storyboard */; };
+		00740B9A2AFBF112005FB15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00740B982AFBF112005FB15A /* Main.storyboard */; };
+		00740BA32AFBF112005FB15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740BA22AFBF112005FB15A /* AppDelegate.swift */; };
+		00740BA62AFBF112005FB15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00740BA42AFBF112005FB15A /* Main.storyboard */; };
+		00740BAD2AFBF112005FB15A /* PageGPT Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 00740BAC2AFBF112005FB15A /* PageGPT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00740BB72AFBF112005FB15A /* PageGPT Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 00740BB62AFBF112005FB15A /* PageGPT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00740BBD2AFBF112005FB15A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 00740B782AFBF110005FB15A /* Main.html */; };
+		00740BBE2AFBF112005FB15A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 00740B782AFBF110005FB15A /* Main.html */; };
+		00740BBF2AFBF112005FB15A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7A2AFBF110005FB15A /* Icon.png */; };
+		00740BC02AFBF112005FB15A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7A2AFBF110005FB15A /* Icon.png */; };
+		00740BC12AFBF112005FB15A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7B2AFBF110005FB15A /* Style.css */; };
+		00740BC22AFBF112005FB15A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7B2AFBF110005FB15A /* Style.css */; };
+		00740BC32AFBF112005FB15A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7C2AFBF110005FB15A /* Script.js */; };
+		00740BC42AFBF112005FB15A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7C2AFBF110005FB15A /* Script.js */; };
+		00740BC52AFBF112005FB15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B7D2AFBF110005FB15A /* ViewController.swift */; };
+		00740BC62AFBF112005FB15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B7D2AFBF110005FB15A /* ViewController.swift */; };
+		00740BC72AFBF112005FB15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7E2AFBF112005FB15A /* Assets.xcassets */; };
+		00740BC82AFBF112005FB15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00740B7E2AFBF112005FB15A /* Assets.xcassets */; };
+		00740BC92AFBF112005FB15A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B802AFBF112005FB15A /* SafariWebExtensionHandler.swift */; };
+		00740BCA2AFBF112005FB15A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00740B802AFBF112005FB15A /* SafariWebExtensionHandler.swift */; };
+		00740BCB2AFBF112005FB15A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 00740B822AFBF112005FB15A /* _locales */; };
+		00740BCC2AFBF112005FB15A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 00740B822AFBF112005FB15A /* _locales */; };
+		00740BCD2AFBF112005FB15A /* images in Resources */ = {isa = PBXBuildFile; fileRef = 00740B832AFBF112005FB15A /* images */; };
+		00740BCE2AFBF112005FB15A /* images in Resources */ = {isa = PBXBuildFile; fileRef = 00740B832AFBF112005FB15A /* images */; };
+		00740BCF2AFBF112005FB15A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 00740B842AFBF112005FB15A /* manifest.json */; };
+		00740BD02AFBF112005FB15A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 00740B842AFBF112005FB15A /* manifest.json */; };
+		00740BD32AFBF112005FB15A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 00740B862AFBF112005FB15A /* content.js */; };
+		00740BD42AFBF112005FB15A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 00740B862AFBF112005FB15A /* content.js */; };
+		00740BD52AFBF112005FB15A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 00740B872AFBF112005FB15A /* popup.html */; };
+		00740BD62AFBF112005FB15A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 00740B872AFBF112005FB15A /* popup.html */; };
+		00740BD72AFBF112005FB15A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 00740B882AFBF112005FB15A /* popup.css */; };
+		00740BD82AFBF112005FB15A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 00740B882AFBF112005FB15A /* popup.css */; };
+		00740BD92AFBF112005FB15A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 00740B892AFBF112005FB15A /* popup.js */; };
+		00740BDA2AFBF112005FB15A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 00740B892AFBF112005FB15A /* popup.js */; };
+		00C8CD3D2AFCA3C7000D4CEA /* PageGPTServer in Resources */ = {isa = PBXBuildFile; fileRef = 00C8CD3C2AFCA3C7000D4CEA /* PageGPTServer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00740BAE2AFBF112005FB15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00740B722AFBF110005FB15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00740BAB2AFBF112005FB15A;
+			remoteInfo = "PageGPT Extension (iOS)";
+		};
+		00740BB82AFBF112005FB15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00740B722AFBF110005FB15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00740BB52AFBF112005FB15A;
+			remoteInfo = "PageGPT Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00740BE02AFBF112005FB15A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00740BAD2AFBF112005FB15A /* PageGPT Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BE72AFBF112005FB15A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00740BB72AFBF112005FB15A /* PageGPT Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00740B792AFBF110005FB15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		00740B7A2AFBF110005FB15A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		00740B7B2AFBF110005FB15A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		00740B7C2AFBF110005FB15A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		00740B7D2AFBF110005FB15A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00740B7E2AFBF112005FB15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00740B802AFBF112005FB15A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		00740B822AFBF112005FB15A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		00740B832AFBF112005FB15A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		00740B842AFBF112005FB15A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		00740B862AFBF112005FB15A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		00740B872AFBF112005FB15A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		00740B882AFBF112005FB15A /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		00740B892AFBF112005FB15A /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		00740B8E2AFBF112005FB15A /* PageGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00740B912AFBF112005FB15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00740B932AFBF112005FB15A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00740B962AFBF112005FB15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00740B992AFBF112005FB15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00740B9B2AFBF112005FB15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00740BA02AFBF112005FB15A /* PageGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00740BA22AFBF112005FB15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00740BA52AFBF112005FB15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00740BA72AFBF112005FB15A /* PageGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PageGPT.entitlements; sourceTree = "<group>"; };
+		00740BAC2AFBF112005FB15A /* PageGPT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PageGPT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00740BB12AFBF112005FB15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00740BB62AFBF112005FB15A /* PageGPT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PageGPT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00740BBB2AFBF112005FB15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00740BBC2AFBF112005FB15A /* PageGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PageGPT.entitlements; sourceTree = "<group>"; };
+		00C8CD3C2AFCA3C7000D4CEA /* PageGPTServer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PageGPTServer; path = ../PageGPTServer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00740B8B2AFBF112005FB15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740B9D2AFBF112005FB15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BA92AFBF112005FB15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BB32AFBF112005FB15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00740B712AFBF110005FB15A = {
+			isa = PBXGroup;
+			children = (
+				00C8CD3C2AFCA3C7000D4CEA /* PageGPTServer */,
+				00740B762AFBF110005FB15A /* Shared (App) */,
+				00740B7F2AFBF112005FB15A /* Shared (Extension) */,
+				00740B902AFBF112005FB15A /* iOS (App) */,
+				00740BA12AFBF112005FB15A /* macOS (App) */,
+				00740BB02AFBF112005FB15A /* iOS (Extension) */,
+				00740BBA2AFBF112005FB15A /* macOS (Extension) */,
+				00740B8F2AFBF112005FB15A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00740B762AFBF110005FB15A /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				00740B7D2AFBF110005FB15A /* ViewController.swift */,
+				00740B7E2AFBF112005FB15A /* Assets.xcassets */,
+				00740B772AFBF110005FB15A /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		00740B772AFBF110005FB15A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00740B782AFBF110005FB15A /* Main.html */,
+				00740B7A2AFBF110005FB15A /* Icon.png */,
+				00740B7B2AFBF110005FB15A /* Style.css */,
+				00740B7C2AFBF110005FB15A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00740B7F2AFBF112005FB15A /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				00740B802AFBF112005FB15A /* SafariWebExtensionHandler.swift */,
+				00740B812AFBF112005FB15A /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		00740B812AFBF112005FB15A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00740B822AFBF112005FB15A /* _locales */,
+				00740B832AFBF112005FB15A /* images */,
+				00740B842AFBF112005FB15A /* manifest.json */,
+				00740B862AFBF112005FB15A /* content.js */,
+				00740B872AFBF112005FB15A /* popup.html */,
+				00740B882AFBF112005FB15A /* popup.css */,
+				00740B892AFBF112005FB15A /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00740B8F2AFBF112005FB15A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00740B8E2AFBF112005FB15A /* PageGPT.app */,
+				00740BA02AFBF112005FB15A /* PageGPT.app */,
+				00740BAC2AFBF112005FB15A /* PageGPT Extension.appex */,
+				00740BB62AFBF112005FB15A /* PageGPT Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00740B902AFBF112005FB15A /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				00740B912AFBF112005FB15A /* AppDelegate.swift */,
+				00740B932AFBF112005FB15A /* SceneDelegate.swift */,
+				00740B952AFBF112005FB15A /* LaunchScreen.storyboard */,
+				00740B982AFBF112005FB15A /* Main.storyboard */,
+				00740B9B2AFBF112005FB15A /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		00740BA12AFBF112005FB15A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				00740BA22AFBF112005FB15A /* AppDelegate.swift */,
+				00740BA42AFBF112005FB15A /* Main.storyboard */,
+				00740BA72AFBF112005FB15A /* PageGPT.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		00740BB02AFBF112005FB15A /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				00740BB12AFBF112005FB15A /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		00740BBA2AFBF112005FB15A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				00740BBB2AFBF112005FB15A /* Info.plist */,
+				00740BBC2AFBF112005FB15A /* PageGPT.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00740B8D2AFBF112005FB15A /* PageGPT (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00740BE12AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT (iOS)" */;
+			buildPhases = (
+				00740B8A2AFBF112005FB15A /* Sources */,
+				00740B8B2AFBF112005FB15A /* Frameworks */,
+				00740B8C2AFBF112005FB15A /* Resources */,
+				00740BE02AFBF112005FB15A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00740BAF2AFBF112005FB15A /* PBXTargetDependency */,
+			);
+			name = "PageGPT (iOS)";
+			productName = "PageGPT (iOS)";
+			productReference = 00740B8E2AFBF112005FB15A /* PageGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00740B9F2AFBF112005FB15A /* PageGPT (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00740BE82AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT (macOS)" */;
+			buildPhases = (
+				00740B9C2AFBF112005FB15A /* Sources */,
+				00740B9D2AFBF112005FB15A /* Frameworks */,
+				00740B9E2AFBF112005FB15A /* Resources */,
+				00740BE72AFBF112005FB15A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00740BB92AFBF112005FB15A /* PBXTargetDependency */,
+			);
+			name = "PageGPT (macOS)";
+			productName = "PageGPT (macOS)";
+			productReference = 00740BA02AFBF112005FB15A /* PageGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00740BAB2AFBF112005FB15A /* PageGPT Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00740BDD2AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT Extension (iOS)" */;
+			buildPhases = (
+				00740BA82AFBF112005FB15A /* Sources */,
+				00740BA92AFBF112005FB15A /* Frameworks */,
+				00740BAA2AFBF112005FB15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PageGPT Extension (iOS)";
+			productName = "PageGPT Extension (iOS)";
+			productReference = 00740BAC2AFBF112005FB15A /* PageGPT Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		00740BB52AFBF112005FB15A /* PageGPT Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00740BE42AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT Extension (macOS)" */;
+			buildPhases = (
+				00740BB22AFBF112005FB15A /* Sources */,
+				00740BB32AFBF112005FB15A /* Frameworks */,
+				00740BB42AFBF112005FB15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PageGPT Extension (macOS)";
+			productName = "PageGPT Extension (macOS)";
+			productReference = 00740BB62AFBF112005FB15A /* PageGPT Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00740B722AFBF110005FB15A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					00740B8D2AFBF112005FB15A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					00740B9F2AFBF112005FB15A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					00740BAB2AFBF112005FB15A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					00740BB52AFBF112005FB15A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 00740B752AFBF110005FB15A /* Build configuration list for PBXProject "PageGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00740B712AFBF110005FB15A;
+			productRefGroup = 00740B8F2AFBF112005FB15A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00740B8D2AFBF112005FB15A /* PageGPT (iOS) */,
+				00740B9F2AFBF112005FB15A /* PageGPT (macOS) */,
+				00740BAB2AFBF112005FB15A /* PageGPT Extension (iOS) */,
+				00740BB52AFBF112005FB15A /* PageGPT Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00740B8C2AFBF112005FB15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BBF2AFBF112005FB15A /* Icon.png in Resources */,
+				00740B972AFBF112005FB15A /* LaunchScreen.storyboard in Resources */,
+				00740BBD2AFBF112005FB15A /* Main.html in Resources */,
+				00740BC32AFBF112005FB15A /* Script.js in Resources */,
+				00C8CD3D2AFCA3C7000D4CEA /* PageGPTServer in Resources */,
+				00740BC72AFBF112005FB15A /* Assets.xcassets in Resources */,
+				00740B9A2AFBF112005FB15A /* Main.storyboard in Resources */,
+				00740BC12AFBF112005FB15A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740B9E2AFBF112005FB15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BC02AFBF112005FB15A /* Icon.png in Resources */,
+				00740BC22AFBF112005FB15A /* Style.css in Resources */,
+				00740BA62AFBF112005FB15A /* Main.storyboard in Resources */,
+				00740BC42AFBF112005FB15A /* Script.js in Resources */,
+				00740BC82AFBF112005FB15A /* Assets.xcassets in Resources */,
+				00740BBE2AFBF112005FB15A /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BAA2AFBF112005FB15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BD72AFBF112005FB15A /* popup.css in Resources */,
+				00740BD52AFBF112005FB15A /* popup.html in Resources */,
+				00740BCD2AFBF112005FB15A /* images in Resources */,
+				00740BCF2AFBF112005FB15A /* manifest.json in Resources */,
+				00740BCB2AFBF112005FB15A /* _locales in Resources */,
+				00740BD32AFBF112005FB15A /* content.js in Resources */,
+				00740BD92AFBF112005FB15A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BB42AFBF112005FB15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BD82AFBF112005FB15A /* popup.css in Resources */,
+				00740BD62AFBF112005FB15A /* popup.html in Resources */,
+				00740BCE2AFBF112005FB15A /* images in Resources */,
+				00740BD02AFBF112005FB15A /* manifest.json in Resources */,
+				00740BCC2AFBF112005FB15A /* _locales in Resources */,
+				00740BD42AFBF112005FB15A /* content.js in Resources */,
+				00740BDA2AFBF112005FB15A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00740B8A2AFBF112005FB15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BC52AFBF112005FB15A /* ViewController.swift in Sources */,
+				00740B922AFBF112005FB15A /* AppDelegate.swift in Sources */,
+				00740B942AFBF112005FB15A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740B9C2AFBF112005FB15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BC62AFBF112005FB15A /* ViewController.swift in Sources */,
+				00740BA32AFBF112005FB15A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BA82AFBF112005FB15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BC92AFBF112005FB15A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00740BB22AFBF112005FB15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00740BCA2AFBF112005FB15A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00740BAF2AFBF112005FB15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00740BAB2AFBF112005FB15A /* PageGPT Extension (iOS) */;
+			targetProxy = 00740BAE2AFBF112005FB15A /* PBXContainerItemProxy */;
+		};
+		00740BB92AFBF112005FB15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00740BB52AFBF112005FB15A /* PageGPT Extension (macOS) */;
+			targetProxy = 00740BB82AFBF112005FB15A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00740B782AFBF110005FB15A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00740B792AFBF110005FB15A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		00740B952AFBF112005FB15A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00740B962AFBF112005FB15A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00740B982AFBF112005FB15A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00740B992AFBF112005FB15A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00740BA42AFBF112005FB15A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00740BA52AFBF112005FB15A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00740BDB2AFBF112005FB15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00740BDC2AFBF112005FB15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		00740BDE2AFBF112005FB15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PageGPT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT.Extension;
+				PRODUCT_NAME = "PageGPT Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00740BDF2AFBF112005FB15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PageGPT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT.Extension;
+				PRODUCT_NAME = "PageGPT Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00740BE22AFBF112005FB15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PageGPT;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT;
+				PRODUCT_NAME = PageGPT;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00740BE32AFBF112005FB15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PageGPT;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT;
+				PRODUCT_NAME = PageGPT;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00740BE52AFBF112005FB15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/PageGPT.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PageGPT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT.Extension;
+				PRODUCT_NAME = "PageGPT Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00740BE62AFBF112005FB15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/PageGPT.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PageGPT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT.Extension;
+				PRODUCT_NAME = "PageGPT Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00740BE92AFBF112005FB15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/PageGPT.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PageGPT;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT;
+				PRODUCT_NAME = PageGPT;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00740BEA2AFBF112005FB15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/PageGPT.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PageGPT;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.curie.PageGPT;
+				PRODUCT_NAME = PageGPT;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00740B752AFBF110005FB15A /* Build configuration list for PBXProject "PageGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00740BDB2AFBF112005FB15A /* Debug */,
+				00740BDC2AFBF112005FB15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00740BDD2AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00740BDE2AFBF112005FB15A /* Debug */,
+				00740BDF2AFBF112005FB15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00740BE12AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00740BE22AFBF112005FB15A /* Debug */,
+				00740BE32AFBF112005FB15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00740BE42AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00740BE52AFBF112005FB15A /* Debug */,
+				00740BE62AFBF112005FB15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00740BE82AFBF112005FB15A /* Build configuration list for PBXNativeTarget "PageGPT (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00740BE92AFBF112005FB15A /* Debug */,
+				00740BEA2AFBF112005FB15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00740B722AFBF110005FB15A /* Project object */;
+}
